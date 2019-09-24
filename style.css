@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Metrophobic', sans-serif;
+    background-color: rgb(254, 238, 255);
+    background: url('https://www.worldatlas.com') fixed;
+    color: #f3f7f7;
+}
+
+
+header {
+    width: 100%;
+    padding: 40px 0;
+    color:Red;
+    font-size: 10px;
+}
+
+header::before,
+header::after {
+    display: table;
+    content: '';
+}
+header::after {
+    clear: both;
+}
+
+
+
+.score-keeper {
+    float: left;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+}
+
+.score-keeper {
+    width: 66.67%
+}
+
+
+header ul li {
+    padding: 10px 20px;
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    text-transform: Sentence;
+    display: inline;
+}
+header ul {
+    text-align: right;
+    margin-top: 50px
+}
+
+.quizStart {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-top: 150px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: purple;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    background-color: lime;
+    color: purple;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 0;
+    cursor: pointer;
+    margin-top: 40px
+}
+
+button:hover, button:focus {
+    background-color: #7e7e7e;
+    color: #ebca52
+}
